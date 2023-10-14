@@ -16,3 +16,5 @@ Nessa segunda versão eu vou adicionar os testes e modernizar ainda mais com fun
 | Legolas   | Arqueiro  |
 
 Os personagens é mais para uma característica a mais mas os danos a princípio vão ser os mesmos.
+
+Uma das ideias é criar um sistema de balanciamento também, porém é uma implementação que vai ficar para o futuro.
