@@ -1,4 +1,4 @@
-#Clube da luta
+# Clube da luta
 
 A ideia dessa projeto é criar um jogo com um sistema de batalhas por turnos.
 
