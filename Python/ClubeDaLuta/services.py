@@ -2,10 +2,6 @@
 import random
 from lutadores import Lutadores
 
-primeiro = Lutadores("Gabriel")
-segundo = Lutadores("João")
-
-
 soco = 10
 chute = 10 
 especial = 30
