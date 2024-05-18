@@ -1,0 +1,6 @@
+#Ignore cache directory
+__pycache__
+#All File of pycache
+*.pyc
+#Diretorio de chace 
+.pytest_cache
