@@ -7,16 +7,24 @@ class Attack:
     def __str__(self) -> str:
         return f"Habilidade:{self.__name}, dano:{self.__damage}"
     
+
+    def get_info(self):
+        return {
+            'name': self.__name,
+            'damage': self.__damage
+        }
+
     def get_habiliti(self):
-        return self.nome
+        return self.__name
     
     def get_damage(self):
-        return self.dano
+        return self.__damage
     
     def set_attacks(self, attack_name = None, damege_1= None):
         self.nome = attack_name
         self.dano = damege_1
         return f'Nome :{attack_name}' + f'Damage:{damege_1}'
+
 
 class WeakAttack(Attack):
     def __init__(self, name):
