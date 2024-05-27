@@ -9,18 +9,9 @@ class Mage(Fighters):
         self.append_attacks(WeakAttack("Fireball"))
         self.append_attacks(MediumAttack("Solar Flare"))
         self.append_attacks(SpecialAttack("Void Vortex"))
-        
-        """
-        self.append_attacks(WeakAttack("Fireball"))
-        self.append_attacks(MediumAttack("Solar Flare Burst"))
-        self.append_attacks(SpecialAttack("Void Vortex"))
-        """
 
-    def show_atacks(self):
-        attacks = {self.weakattack:self.weakattack}
-        return attacks
 
 if __name__ == "__main__":
-    print("Um mage em sua tela")
-    mage = Mage()
-    pprint(mage.get_info)
+    test_mage = Mage()
+    print(test_mage)#Object
+    print(test_mage.get_info)#Infos
