@@ -1,4 +1,5 @@
-from attacks import Attack, WeakAttack, MediumAttack, SpecialAttack
+#from attacks import Attack, WeakAttack, MediumAttack, SpecialAttack
+from .attacks import Attack, WeakAttack, MediumAttack, SpecialAttack
 
 class Fighters:
     
@@ -58,5 +59,4 @@ class Fighters:
             return "Damage: 0"
 
 if __name__ == "__main__":
-    a = Fighters("Gabriel")
-    print(a.get_name)
+    pass

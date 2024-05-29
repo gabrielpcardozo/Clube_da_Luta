@@ -1,5 +1,5 @@
-from fighters import Fighters
-from attacks import *
+from .fighters import Fighters
+from .attacks import Attack, WeakAttack, MediumAttack, SpecialAttack
 
 class Dps(Fighters):
     def __init__(self, name="Katarina", hp=100):

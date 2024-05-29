@@ -1,5 +1,5 @@
-from fighters import Fighters
-from attacks import *
+from .fighters import Fighters
+from .attacks import WeakAttack, MediumAttack, SpecialAttack
 from pprint import pprint
 
 
@@ -12,6 +12,4 @@ class Mage(Fighters):
 
 
 if __name__ == "__main__":
-    test_mage = Mage()
-    print(test_mage)#Object
-    print(test_mage.get_info)#Infos
+    pass

@@ -1,5 +1,5 @@
-from fighters import Fighters
-from attacks import *
+from .fighters import Fighters
+from .attacks import Attack, WeakAttack, MediumAttack, SpecialAttack
 
 class Warrior(Fighters):
     def __init__(self, name="Arthur", hp=100):
