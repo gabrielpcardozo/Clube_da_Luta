@@ -3,4 +3,6 @@ __pycache__
 #All File of pycache
 *.pyc
 #Diretorio de chace 
-.pytest_cache
+.pytest_cache/
+#Diretorio Venv
+venv/
