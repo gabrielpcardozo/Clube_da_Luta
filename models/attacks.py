@@ -14,7 +14,7 @@ class Attack:
             'damage': self.__damage
         }
 
-    def get_habiliti(self):
+    def get_name(self):
         return self.__name
     
     def get_damage(self):
@@ -34,6 +34,8 @@ class WeakAttack(Attack):
         self.__name = attack_name
         return attack_name
     
+    def __repr__(self):
+        return self.__str__()
 
 class MediumAttack(Attack):
     def __init__(self, name):
@@ -43,6 +45,8 @@ class MediumAttack(Attack):
         self.__name = attack_name
         return attack_name
     
+    def __repr__(self):
+        return self.__str__()
 
 class SpecialAttack(Attack):
     def __init__(self, name):
@@ -52,6 +56,9 @@ class SpecialAttack(Attack):
         self.__name = attack_name
         return attack_name
     
+    def __repr__(self):
+        return self.__str__()
+
 
 if __name__ == "__main__": 
     print(Attack("Classe Attack", 000))
